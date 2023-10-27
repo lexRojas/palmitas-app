@@ -15,6 +15,16 @@ function App() {
           <Image src={logo} alt="Image" width="150" />
         </div>
       </div>
+      <div className="inline justify-content-center ">
+        
+        <div className="block text-xl text-blue-400 font-bold text-center m-2 ">
+        STN - Sección Técnica Nocturna
+        </div>
+        <div className="block  font-bold text-center ">
+        
+        Especialidad de Desarrollo WEB
+        </div>
+      </div>
 
       <div className="flex flex-row p-5 justify-content-center ">
         <div>
@@ -24,9 +34,8 @@ function App() {
             rel="noopener noreferrer"
           >
             <Button
-              label="Inscribirme"
-            
-            
+              label="ESTOY INTERESAD@"
+              className="primary-300"
             />
           </a>
         </div>
