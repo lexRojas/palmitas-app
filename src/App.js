@@ -19,7 +19,7 @@ function App() {
       <div className="flex flex-row p-5 justify-content-center ">
         <div>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScS4GaiMyXDfxe9l1XMwzc7OiKG_KRODNzDfKZdnRoAPiI-kw/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf5EpaCSEzXUdcUac3t5x9ryO4sJJoFb39vjwcDSgICzwzFsA/viewform"
             target="_blank"
             rel="noopener noreferrer"
           >
