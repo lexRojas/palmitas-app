@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./images/OIP.png";
+import { PrimeReactProvider } from "primereact/api";
+import { Image } from "primereact/image";
+
+import { Button } from "primereact/button";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PrimeReactProvider>
+      <div className="flex flex-row p-5 justify-content-center ">
+        <h1>Bienvenidos a nuestra institución</h1>
+      </div>
+      <div className="flex flex-row p-2 justify-content-center ">
+        <div className="flex flex-column justify-content-center">
+          <Image src={logo} alt="Image" width="150" />
+        </div>
+      </div>
+
+      <div className="flex flex-row p-5 justify-content-center ">
+        <div>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScS4GaiMyXDfxe9l1XMwzc7OiKG_KRODNzDfKZdnRoAPiI-kw/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button
+              label="Inscribirme"
+            
+            
+            />
+          </a>
+        </div>
+      </div>
+    </PrimeReactProvider>
   );
 }
 
