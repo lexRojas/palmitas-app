@@ -7,22 +7,22 @@ import { Button } from "primereact/button";
 function App() {
   return (
     <PrimeReactProvider>
-      <div className="flex flex-row p-5 justify-content-center ">
+      <div className="flex flex-row p-5 justify-content-center text-center">
         <h1>Bienvenidos a nuestra institución</h1>
       </div>
       <div className="flex flex-row p-2 justify-content-center ">
-        <div className="flex flex-column justify-content-center">
+        <div className="flex flex-column justify-content-center mb-5">
           <Image src={logo} alt="Image" width="150" />
         </div>
       </div>
       <div className="inline justify-content-center ">
-        
-        <div className="block text-xl text-blue-400 font-bold text-center m-2 ">
-        STN - Sección Técnica Nocturna
-        </div>
-        <div className="block  font-bold text-center ">
-        
+
+      <div className="block text-xl font-bold text-center ">      
         Especialidad de Desarrollo WEB
+        </div>
+        
+        <div className="block text-l text-blue-400 font-bold text-center m-2 ">
+        STN - Sección Técnica Nocturna
         </div>
       </div>
 
