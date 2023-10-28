@@ -3,6 +3,7 @@ import { PrimeReactProvider } from "primereact/api";
 import { Image } from "primereact/image";
 
 import { Button } from "primereact/button";
+import Tarjeta1 from "./components/Tarjeta1";
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
           </a>
         </div>
       </div>
+      <div className="flex flex-row justify-content-center">
+          <Tarjeta1/>
+        </div>
     </PrimeReactProvider>
   );
 }
