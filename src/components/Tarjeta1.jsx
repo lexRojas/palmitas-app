@@ -3,7 +3,7 @@ import { Accordion, AccordionTab } from "primereact/accordion";
 
 export default function Tarjeta1() {
   return (
-    <div className="card flex justify-content-center w-3">
+    <div className="card flex justify-content-center md:w-3">
       <Accordion activeIndex={0}>
         <AccordionTab header="Perfil Profesional">
           <p className="m-0">
