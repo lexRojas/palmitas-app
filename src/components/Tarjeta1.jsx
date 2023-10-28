@@ -6,7 +6,7 @@ export default function Tarjeta1() {
     <div className="card flex justify-content-center md:w-3">
       <Accordion activeIndex={0}>
         <AccordionTab header="Perfil Profesional">
-          <p className="m-0">
+          <p className="m-0 text-xl">
             Al terminar esta especialidad, el o la persona graduada desarrollará
             una serie de habilidades que le permitirán desarrollar sitios y
             aplicaciones WEB en entornos distribuidos, diseñar sitios web de
@@ -19,7 +19,7 @@ export default function Tarjeta1() {
           </p>
         </AccordionTab>
         <AccordionTab header="Beneficios que ofrecemos">
-          <lu>
+          <lu className="text-xl">
             <li> Horario: NOCTURNO </li>
             <li> Duración: 3 años </li>
             <li> Laboratorios de Cómputo </li>
