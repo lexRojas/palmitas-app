@@ -20,7 +20,7 @@ function InfoWEB() {
         </div>
       </div>
 
-      <div className="flex p-2 justify-content-center max-w-full sm:w-5">
+      <div className="flex p-2 justify-content-center max-w-full sm:w-4  lg:w-8">
         <Card>
           <p className=" text-lg font-bold "> Competencia general:</p>
           <p>
