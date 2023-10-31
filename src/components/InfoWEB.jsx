@@ -16,7 +16,7 @@ function InfoWEB() {
         </div>
         <div>
           <p className="text-4xl font-bold mb-1">Diseño WEB</p>
-          <p className="text-l ">Sección Técnica Nocturna</p>
+          <p className="text-l ">Sección Técnica Nocturna 11</p>
         </div>
       </div>
 
