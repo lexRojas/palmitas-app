@@ -4,6 +4,7 @@ import { Image } from "primereact/image";
 
 import { Button } from "primereact/button";
 import Tarjeta1 from "./components/Tarjeta1";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -17,33 +18,37 @@ function App() {
         </div>
       </div>
       <div className="inline justify-content-center ">
-
-      <div className="block text-xl font-bold text-center ">      
-        Especialidad de Desarrollo WEB
+        <div className="block text-xl font-bold text-center ">
+          Especialidad de Desarrollo WEB
         </div>
-        
+
         <div className="block text-l text-blue-400 font-bold text-center m-2 ">
-        STN - Sección Técnica Nocturna
+          STN - Sección Técnica Nocturna
         </div>
       </div>
 
       <div className="flex flex-row p-5 justify-content-center ">
-        <div>
-          <a
+        <div className="m-1">
+          {/* <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSf5EpaCSEzXUdcUac3t5x9ryO4sJJoFb39vjwcDSgICzwzFsA/viewform"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            <Button
-              label="ESTOY INTERESAD@"
-              className="primary-300"
-            />
-          </a>
+          > */}
+
+          <Link to="https://docs.google.com/forms/d/e/1FAIpQLSf5EpaCSEzXUdcUac3t5x9ryO4sJJoFb39vjwcDSgICzwzFsA/viewform">
+            <Button label="ESTOY INTERESAD@" className="primary-100" />
+          </Link>
+          {/* </a> */}
+        </div>
+        <div className="m-1">
+          <Link to="/info">
+            <Button label="MAS INFO" />
+          </Link>
         </div>
       </div>
       <div className="flex flex-row justify-content-center">
-          <Tarjeta1/>
-        </div>
+        <Tarjeta1 />
+      </div>
     </PrimeReactProvider>
   );
 }

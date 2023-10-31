@@ -3,9 +3,9 @@ import { Accordion, AccordionTab } from "primereact/accordion";
 
 export default function Tarjeta1() {
   return (
-    <div className="card flex justify-content-center md:w-3">
-      <Accordion activeIndex={0}>
-        <AccordionTab header="Perfil Profesional">
+    <div className="card flex justify-content-center ">
+      <Accordion activeIndex={0} multiple ={true}  >
+        <AccordionTab header="Perfil Profesional"  headerClassName="tarjetaHeader" >  
           <p className="m-0 text-xl">
             Al terminar esta especialidad, el o la persona graduada desarrollará
             una serie de habilidades que le permitirán desarrollar sitios y
