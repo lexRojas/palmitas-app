@@ -9,7 +9,7 @@ import logo from "../images/OIP.png"
 
 function InfoWEB() {
   return (
-    <div className="pantalla_gris">
+    <div className="flex-wrap justify-content-center pantalla_gris">
       <div className="flex mb-5">
         <div className="mr-3">
             <Image src={logo} width="100px" />
@@ -19,7 +19,8 @@ function InfoWEB() {
           <p className="text-l ">Sección Técnica Nocturna</p>
         </div>
       </div>
-      <div className="flex p-2 justfy-content-center max-w-full lg:w-7">
+
+      <div className="flex p-2 justify-content-center max-w-full sm:w-5">
         <Card>
           <p className=" text-lg font-bold "> Competencia general:</p>
           <p>
