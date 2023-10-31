@@ -15,12 +15,12 @@ function InfoWEB() {
             <Image src={logo} width="100px" />
         </div>
         <div>
-          <p className="text-4xl font-bold">Diseño WEB</p>
+          <p className="text-4xl font-bold mb-1">Diseño WEB</p>
           <p className="text-l ">Sección Técnica Nocturna</p>
         </div>
       </div>
 
-      <div className="flex p-2 justify-content-center max-w-full sm:w-4  lg:w-8">
+      <div className="flex p-2 justify-content-center  ">
         <Card>
           <p className=" text-lg font-bold "> Competencia general:</p>
           <p>
