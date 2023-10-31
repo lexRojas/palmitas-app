@@ -109,7 +109,7 @@ function InfoWEB() {
 
           <Divider />
           <p className="text-lg font-bold"> Subáreas o materias a llevar </p>
-          <Image src={cuadro1} width="500px" preview />
+          <Image src={cuadro1} width="300px" preview />
         </Card>
       </div>
     </div>
