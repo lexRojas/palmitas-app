@@ -1,10 +1,14 @@
 import logo from "./images/OIP.png";
+import qr from "./images/masinfo.jpg"
+
+
 import { PrimeReactProvider } from "primereact/api";
 import { Image } from "primereact/image";
 
 import { Button } from "primereact/button";
 import Tarjeta1 from "./components/Tarjeta1";
 import { Link } from "react-router-dom";
+import { Divider } from "primereact/divider";
 
 function App() {
   return (
@@ -48,6 +52,10 @@ function App() {
       </div>
       <div className="flex flex-row justify-content-center">
         <Tarjeta1 />
+      </div>
+      <div className="block ">
+        <Divider/>
+        <Image className="flex justify-content-center" src={qr} width="150px"/>
       </div>
     </PrimeReactProvider>
   );
